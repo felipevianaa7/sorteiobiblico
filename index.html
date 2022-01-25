@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio bíblico</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><h1 class="titulo">Sorteio Bíblico</h1></a>
+        <nav class="menu">
+            <a class="menu-item" href="pag01.html">Contato</a>
+        </nav>
+    </header>
+
+    <section class="principal">
+
+       <div class="principal-campo">
+        <div class="principal-campo-conteudo">
+            <p class="principal-campo-pergunta">Escolha em qual parte será sorteado o livro:</p>
+            <label class="principal-campo-checkbox"><input type="checkbox" name="primeiro" value="velho" id="primeiro"> Velho Testamento</label>
+            <label class="principal-campo-checkbox"><input type="checkbox" name="segundo" value="novo" id="segundo"> Novo Testamento</label>
+            <input type="button" id="botao" value="Sortear" onclick="sortear()">
+        </div>
+
+        <br>
+        <div id="res">
+            
+
+        </div>
+        
+
+       </div>
+
+    </section>
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>

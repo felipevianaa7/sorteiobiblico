@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Spline+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Sarala&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20pt;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    background-color: #5c6bc0;
+    color: #fdd835;
+    justify-content: space-around;
+    gap: 500px;
+      
+}
+
+.titulo {
+    font-family: 'Sedgwick Ave', cursive; 
+}
+
+a {
+    text-decoration: none;
+    color: #fdd835;
+    border-radius: 15px;
+    font-size: 25pt;        
+
+}
+
+a.menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size:  20pt;   
+}
+
+.principal {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 100vh;    
+}
+
+.principal-campo {
+    padding: 40px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    width: 800px;
+    height: 450px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+.principal-campo-conteudo {
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.principal-campo-conteudo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+p.principal-campo-pergunta {
+    font-size: 30pt;
+}
+
+
+label {
+    font-size: 25pt;
+}
+
+#botao {
+    width: 180px;
+    height: 40px;
+    font-size: 25px;    
+    background-color: #5c6bc0;
+    color: #fdd835;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#res {    
+    font-size: 60px;
+    border-radius: 15px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    
+    
+    
+}
