@@ -156,6 +156,11 @@ a.rodape {
         height: 100%;
         overflow-x: hidden; /*Se algo transborda, fica fora do body*/
     }
+    
+    .principal-campo {
+        width: 550px;
+        height: 580px;        
+    }
 
     .menu-lista {
         position: absolute;
