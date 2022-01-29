@@ -1,23 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Spline+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2? família=Sarala&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
-    box-sizing: border-box;
-    font-size: 20pt;
 }
-
 header {
     display: flex;
     flex-direction: row;
     align-items: center;    
     background-color: #5c6bc0;
     color: #fdd835;
+    height: 25vh;
     justify-content: space-around;    
       
+}
+
+body {    
+    text-align: center;
+    box-sizing: border-box;    
 }
 
 .titulo {
@@ -57,19 +58,6 @@ nav {
    margin-left: 32px; /*Jogar mais para a direita*/
 }
 
-.menu-mobile {
-    display: none;
-    cursor: pointer;
-}
-
-.menu-mobile div { /*Criar o menu hamburguer*/
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-    transition: 0.3s;
-}
-
 .principal {
     display: flex;    
     align-items: center;
@@ -83,15 +71,14 @@ nav {
     background-color: #fefefe;
     border-radius: 5px;
     width: 700px;
-    height: 450px;
+    height: 550px;
     padding-top: 5px;
     padding-bottom: 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
 }
 
 .principal-campo-conteudo {
-    padding-bottom: 30px;
-    font-size: 25px;
+    padding-bottom: 30px;    
     text-align: center;
 }
 
@@ -102,11 +89,12 @@ nav {
 
 p.principal-campo-pergunta {
     font-size: 30pt;
+    padding: 15px;
 }
 
 
 label {
-    font-size: 25pt;
+    font-size: 25pt;    
 }
 
 #botao {
@@ -132,8 +120,7 @@ label {
 footer {
     background-color: #eee;
     padding: 10px;
-    font-style: italic;
-    
+    font-style: italic;       
 }
 
 a.rodape {
@@ -145,70 +132,37 @@ a.rodape {
       
     .principal-campo {
         width: 550px;
-        height: 450px;        
+        height: 550px;        
     }
 }
 
 @media screen and (max-width: 768px) {
     
-    body {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden; /*Se algo transborda, fica fora do body*/
-    }
-    
     .principal-campo {
-        width: 550px;
-        height: 580px;        
+        width: 500px;
+        height: 540px;        
     }
 
-    .menu-lista {
-        position: absolute;
-        top: 19.6vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #5c6bc0;
+    header {        
+        text-decoration: none;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding-top: 80px;
-        gap: 32px;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in ;
-    }
-    .menu-lista li {
-        margin-left: 0;
-                
-    }
-    
-    .menu-mobile {
-        display: block;
-    }
-}    
+        padding: 40px;    
+    } 
 
-    .menu-lista.active {
-        transform: translateX(0);
+    nav {
+        padding-right: 30px;
     }
 
-    @keyframes navLinkFade {
-        from {
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+    p.principal-campo-pergunta {
+        font-size: 25pt;
+        
+    }
+    label {
+        font-size: 20pt;    
     }
 
-    .menu-mobile.active .linha1 {
-        transform: rotate(-45deg) translate(-8px, 8px);
-      }
-      
-      .menu-mobile.active .linha2 {
-        opacity: 0;
-      }
-      
-      .menu-mobile.active .linha3 {
-        transform: rotate(45deg) translate(-5px, -7px);
-      }
+    #res {
+        font-size: 35pt;
+    }
+}
