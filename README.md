@@ -11,5 +11,5 @@ Deixei ele responsivo mas acredito que precise ajustar um pouco mais
 ## <p>Layout do Site</p>
 <a href="https://felipevianaa7.github.io/sorteiobiblico-javascript/">Acesse aqui</a>
 
-## <p style="width: 600px; height: 1200px; padding-top: 30px;">Página principal<br><br> ![Layout Site]
-(main-site.png)</p>
+## <p style="width: 600px; height: 1200px; padding-top: 30px;">![main-site](https://user-images.githubusercontent.com/53532151/151661831-62b7ad40-60d6-4e45-83d5-31be01b2f462.png)</p>
+
