@@ -117,10 +117,21 @@ label {
     background-color: #eee;   
 }
 
+a.github {
+    color: black;
+    padding-top: 20pt;
+}
+
+#paginas {
+    padding-top: 20px;
+    padding-bottom: 400px;
+}
+
 footer {
     background-color: #eee;
-    padding: 10px;
-    font-style: italic;       
+    padding: 50px;
+    height: 100;
+           
 }
 
 a.rodape {
@@ -163,6 +174,6 @@ a.rodape {
     }
 
     #res {
-        font-size: 35pt;
+        font-size: 32pt;
     }
 }
