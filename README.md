@@ -12,5 +12,6 @@ OBS: Em breve será adicionado mais funcionalidades!
 ## <p>Layout do Site</p>
 <a href="https://felipevianaa7.github.io/sorteiobiblico-javascript/">Acesse aqui</a>
 
-## <p style="width: 600px; height: 1200px; padding-top: 30px;">![main-site](https://user-images.githubusercontent.com/53532151/151661831-62b7ad40-60d6-4e45-83d5-31be01b2f462.png)</p>
+## <p style="width: 600px; height: 1200px; padding-top: 30px;">![main-site](https://user-images.githubusercontent.com/53532151/152350553-0f2ce60c-39db-4d9e-9151-05d30ed47241.png)</p>
+
 
