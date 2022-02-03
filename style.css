@@ -8,8 +8,8 @@
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;    
-    background-color: #5c6bc0;
+    align-items: center;
+    background: linear-gradient(68.15deg, #5d96e0 16.62%, #5c6bc0 85.61%);     
     color: #fdd835;
     height: 25vh;
     justify-content: space-around;    
@@ -20,6 +20,8 @@ body {
     text-align: center;
     box-sizing: border-box;    
 }
+
+/* HEADER*/
 
 .titulo {
     font-family: 'Sedgwick Ave', cursive; 
@@ -57,6 +59,7 @@ nav {
    letter-spacing: 3px; /*Espaçamento entre as letras*/
    margin-left: 32px; /*Jogar mais para a direita*/
 }
+/* CONTEUDO */
 
 .principal {
     display: flex;    
@@ -89,7 +92,7 @@ nav {
 
 p.principal-campo-pergunta {
     font-size: 30pt;
-    padding: 15px;
+    padding: 40px;
 }
 
 
@@ -97,15 +100,17 @@ label {
     font-size: 25pt;    
 }
 
+
+
 #botao {
     width: 180px;
     height: 40px;
     font-size: 25px;    
-    background-color: #5c6bc0;
+    background: linear-gradient(68.15deg, #5d96e0 16.62%, #5c6bc0 85.61%);
     color: #fdd835;
     border: none;
     border-radius: 6px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 #res {    
@@ -116,29 +121,7 @@ label {
     justify-content: center;
     background-color: #eee;   
 }
-
-a.github {
-    color: black;
-    padding-top: 20pt;
-}
-
-#paginas {
-    padding-top: 20px;
-    padding-bottom: 400px;
-}
-
-footer {
-    background-color: #eee;
-    padding: 50px;
-    height: 100;
-           
-}
-
-a.rodape {
-    text-decoration: none;
-    color: black;
-}
-
+ 
 @media screen and (max-width: 999px) {
       
     .principal-campo {
