@@ -1,5 +1,5 @@
 ## <p> # Projeto Sorteio Bíblico</p>
-## Meu primeiro projeto que eu mesmo desenvolvi usando o método Math.random() para sortear dentro de um checkbox de duas opções, um livro da bíblia.
+## Meu primeiro projeto que eu mesmo desenvolvi usando o método Math.random() para sortear dentro de uma checkbox de duas opções, um livro da bíblia.
 A idéia foi criar três arrays de strings e de acordo com a opção marcada do usuário, acontecer um sorteio númerico equivalente a posição de cada item dentro do vetor e com isso o 
 resultado ser mostrado na tela.
 Deixei ele responsivo mas acredito que precise ajustar um pouco mais.
